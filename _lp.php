@@ -190,10 +190,10 @@ function send_result( $data )
     $ret['data'] = $data ;
     send_json( $ret );
 }
-function send_error( $type , $info = null )
+function send_error( $info )
 {
-    $error = get_error( $type );
-    if( $info != null )
-        $error['message'] = $error['message'].' -' . $info ;
+	$error['code'] = -1;
+	$error['message'] = $info ;
+	$error['js'] = 'alert("' . $info . '")' ;
     send_json($error);
 }
