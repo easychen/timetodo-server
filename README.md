@@ -42,6 +42,8 @@ TimeTodo 是一个浮层式的半透明 Todo 应用。除此之外，点击每�
 
 ### WebHook 测试
 
+⚠️ webhook 会向 hook 地址发送 Todo 数据和剪贴板（1.1beta，目前尚未对外发布）数据，并执行返回的脚本，所以请务必自行架设。以下地址只供测试，测试完成后请及时更换。
+
 1. 在Todo添加输入框输入 `:webhook=https://timetodo.applinzi.com/` 并回车，可以设置 web hook
 2. 输入 `:who` 可以测试是否 work 。提示 It's me 为可以正常工作
 3. 输入 `:find sort` 会打开php手册 sort 函数页面
