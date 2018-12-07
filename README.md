@@ -16,7 +16,7 @@ TimeTodo 是一个浮层式的半透明 Todo 应用。除此之外，点击每�
 
 ## 安装使用
 
-[视频说明](https://weibo.com/tv/v/H69hWFP88?fid=1034:4314655846242817)
+[视频说明](https://www.bilibili.com/video/av37635866/)
 
 以下为 Mac 版说明
 
