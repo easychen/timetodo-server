@@ -20,6 +20,8 @@ TimeTodo 是一个浮层式的半透明 Todo 应用。除此之外，点击每�
 
 ⚠️ 1.0使用的存储和之前不同，请预先备份Todo内容。
 
+[客户端独立下载地址](https://github.com/easychen/timetodo-server/raw/master/TimeTodo.v1.0.Mac.zip)
+
 ### 客户端安装
 
 1. git clone 或者直接下载 Zip 包解压
