@@ -64,12 +64,13 @@ TimeTodo 客户端在用户输入的 Todo 内容以冒号开头时，会查找�
 
 同时，TimeTodo 客户端会检查该 URL 的返回值。其格式为
 
+```json
 {
     code:"0",
     js:"",
     cmd:""
 }
-
+```
 其中 code 为 0 表示正常；js 为希望 TimeTodo 客户端执行的 JS 命令、cmd 为希望 TimeTodo 客户端执行的 Electron 命令。
 
 在此基础上，我们可以根据场景进行编程。以下为示范代码：
