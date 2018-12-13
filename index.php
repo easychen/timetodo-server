@@ -16,6 +16,19 @@ $ret['js'] = ''; // 页面 js
 $ret['cmd'] = ''; // eletron 命令
 
 $cmd = t(v('cmd')); // TimeTodo 上的命令，包含冒号
+$type = t(v('type'));
+
+if( $type == 'preview' )
+{
+    switch( $cmd )
+    {
+        case "@demo":
+            $ret['preview'] = "[Markdown](http://ftqq.com)";
+            break;
+    }
+    return $ret;
+    
+}
 
 // 根据命令来修改返回值相关数据
 switch( $cmd )
