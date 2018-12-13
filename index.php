@@ -17,7 +17,8 @@ $ret['cmd'] = ''; // eletron 命令
 
 $cmd = t(v('cmd')); // TimeTodo 上的命令，包含冒号
 $type = t(v('type'));
-
+echo $type;
+exit;
 if( $type == 'preview' )
 {
     switch( $cmd )
